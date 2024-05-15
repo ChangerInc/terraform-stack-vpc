@@ -4,7 +4,7 @@ resource "aws_instance" "public_instance" {
   subnet_id         = aws_subnet.subnet-publica.id 
 
   tags = {
-    nome = Changer
+    nome = "Changer"
   }
 
 
