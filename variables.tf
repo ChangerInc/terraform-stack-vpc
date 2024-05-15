@@ -22,3 +22,9 @@ variable "override_additional_tags" {
     environment = "shd"
   }
 }
+
+variable "key_name" {
+  type      = string 
+  default   = "changer"
+
+}
